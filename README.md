@@ -22,7 +22,7 @@ Las claves de la máquina desplegada son:
 
 ## Especial para Windows
 El fichero code.ps1 es un script PowerShell para desplegar la máquina Vagrant y configurar el workspace (Espacio de trabajo) de Visual Studio.
-
+Lo mejor es que se genera un perfil aislado de Visual Studio Code independiente de que se tenga instalado o no.
 
 ## Herramientas Visual Studio
 Para el desarrollo recomiendo utilizar Visual Studio Code con los siguientes complementos:
