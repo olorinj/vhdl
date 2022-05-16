@@ -29,9 +29,9 @@ Para el desarrollo recomiendo utilizar Visual Studio Code con los siguientes com
 * [Remote Development (ms-vscode-remote.vscode-remote-extensionpack)](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 * [TerosHDL (teros-technology.teroshdl)](https://marketplace.visualstudio.com/items?itemName=teros-technology.teroshdl)
 
-### Configuración TerosHDL:
-General / Select the waveform... Cambiar por GTKWave
-GHDL / Installation path... Poner: /usr/bin/ghdl
+### Configuración de TerosHDL en Visual Studio Code
+* General / Select the waveform... Cambiar por GTKWave
+* GHDL / Installation path... Poner: /usr/bin/ghdl
 
 ## Modo de trabajo
 1. Abrir Visual Studio Code
