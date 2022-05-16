@@ -39,6 +39,12 @@ Para el desarrollo recomiendo utilizar Visual Studio Code con los siguientes com
 3. Conectar, por Remote Development con la máquina desplegada
 4. Desarrollar todo en la carpeta proyectos
 
+# Uso de VHDL por línea de comandos
+* Analizar el fichero: ghdl -a FICHERO.vhdl
+* Crear el ejecutable: ghdl -e ENTIDAD
+* Ejecutar VHDL: ghdl -r ENTIDAD --stop-time=999ns --wave=FICHERO.ghw (También se pueden cread ficheros VCD)
+* Visualizar resultado: gtkwave FICHERO.ghw
+
 # NOTA
 Si algo no funciona como debe, por favor, indicádmelo y lo veré después del examen de IC3 de este año 2022.
 
