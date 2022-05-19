@@ -43,6 +43,7 @@ Para el desarrollo recomiendo utilizar Visual Studio Code con los siguientes com
 * Analizar el fichero: ghdl -a FICHERO.vhdl
 * Crear el ejecutable: ghdl -e ENTIDAD
 * Ejecutar VHDL: ghdl -r ENTIDAD --stop-time=999ns --wave=FICHERO.ghw (También se pueden cread ficheros VCD)
+* * Ejecutar banco de pruebas con REPORT: ghdl -r ENTIDAD
 * Visualizar resultado: gtkwave FICHERO.ghw
 
 # NOTA
